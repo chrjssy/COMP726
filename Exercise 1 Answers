@@ -1,0 +1,13 @@
+Can you have a proof of work blockchain with a realtime difficulty adjustment? What are some of the advantages of this setup? Limitations?
+
+Some advantages for this setup would be that the network could respond instantly to fluctuations in hashpower which will prevent long delays blocks where they are mined too quickly.
+It would also keep block mining times more consistent.
+
+Real-time Difficulty Adjustments would also increase security measures as it could prevent an attacker from exploiting low difficulty blocks to mine them too quickly.
+The network would respond immediately by increasing difficulty, this prevents an attacker from mining blocks too quickly.
+
+Some Limitations with the approach:
+
+Miners could exploit this by lowering their hashpower to mine lower difficulty blocks and then increase it after to mine it quicker than expected and the cycle continues maximising their rewards.
+
+Also constantly adjusting difficulty requires more frequent recalculations of changes to the entire network resulting in higher overheard costs and complexity of the blockchain.
